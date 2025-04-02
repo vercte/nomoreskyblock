@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "nomoreskyblock",
+  "version": "${version}",
+  "name": "No More Sky Block",
+  "description": "removes the rendering of the sky block",
+  "authors": [
+    {
+      "name": "Vercte",
+      "contact": {
+        "homepage": "https://vercte.net"
+      }
+    }
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/nomoreskyblock",
+    "sources": "https://github.com/vercte/nomoreskyblock",
+    "issues": "https://github.com/vercte/nomoreskyblock/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/nomoreskyblock/icon.png",
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    {
+      "config": "nomoreskyblock.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.11",
+    "minecraft": "1.21.6-alpha.25.14.craftmine"
+  }
+}
